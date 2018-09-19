@@ -1,0 +1,31 @@
+markdown: kramdown
+highlighter: pygments
+permalink: /posts/:title.html
+excerpt_separator: "<!-- more -->"
+
+github: manhtv
+author: "Tran Van Manh"
+email: manhtv@outlook.com
+name: "Tran Van Manh"
+url: thinot4work.github.io
+domain: www.vinacrypto.com
+all_categories: [
+["android", "Phát triển Android","/posts/android.html"], 
+["program", "Lập trình phần mền","/posts/program.html"],
+["web", "Trang web","/posts/web.html"], 
+["linux", "Linux liên quan","/posts/linux.html"],
+["read", "Đọc ghi chú","/posts/read.html"], 
+["other", "Khác","/posts/other.html"],
+["about", "Giới thiệu","/about.html"]
+]
+
+paginate: 8
+paginate_path: "posts/page:num"
+timezone: Vietnam/Hanoi
+
+collections:
+  docs:
+    output: true
+
+gems:
+ - jekyll-paginate
